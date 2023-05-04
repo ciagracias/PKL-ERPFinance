@@ -1,0 +1,66 @@
+
+<div class="Bunder"></div>
+
+<div class="kotak">
+  <img src="assets/Frame 1.png" alt="logo">
+</div>
+
+
+
+
+
+<form class="example-form">
+    <mat-form-field class="example-full-width">
+      <mat-label>Username</mat-label>
+      <input type="username" matInput placeholder="Username">
+      <mat-error *ngIf="emailFormControl.hasError('Username') && !emailFormControl.hasError('required')">
+        Please enter username
+      </mat-error>
+      <mat-error *ngIf="emailFormControl.hasError('required')">
+        Username is <strong>required</strong>
+      </mat-error>
+    </mat-form-field>
+  </form>
+  
+
+  <form class="example-for">
+    <mat-form-field class="example-full-widt">
+      <mat-label>Password</mat-label>
+      <input type="password" matInput placeholder="Password">
+      <mat-error *ngIf="emailFormControl.hasError('Password') && !emailFormControl.hasError('required')">
+        Please enter password
+      </mat-error>
+      <mat-error *ngIf="emailFormControl.hasError('required')">
+        Password is <strong>required</strong>
+      </mat-error>
+    </mat-form-field>
+  </form>
+
+
+
+
+
+<div class="background"></div>
+
+
+<div class="fgpw">
+<section>
+    <div class="example-button-row">
+      <button mat-button style="color: #fcd35c;">Forgot Password?</button>
+    </div>
+</section>
+</div>
+
+<div class="lgn">
+<section>
+    <div class="example-button-row">
+        <button mat-raised-button color="primary" style="background-color:#fcd35c ;">Login</button>
+    </div>
+</section>
+</div>
+
+
+  <div class="tulisan">
+    <h2>Already have an account?</h2>
+  </div>
+
