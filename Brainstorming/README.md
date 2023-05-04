@@ -1,1 +1,0 @@
-# Rafly Adinata Prayoga
