@@ -1,0 +1,94 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.toolbar{
+  background-color: rgb(255, 255, 255);
+}
+
+h2{
+  position: relative;
+  top: 15%;
+  left: 1%;
+  color: white;
+}
+
+.tombol{
+  position: relative;
+  left: 2%;
+  top: 5%;
+  font-size: 15px;
+  font-weight:500;
+  color:  dimgray;
+  background-color: rgb(255, 255, 255);
+  border: rgb(255, 255, 255) ;
+
+}
+
+.Ohh{
+  position: relative;
+  left: 5%;
+  top: 5%;
+  color: dimgray;
+  font-weight: 500;
+}
+
+.mana{
+  color: dimgray;
+  font-size: 15px;
+  font-weight: 500;
+  position: relative;
+  left: 8%;
+}
+
+.lapo{
+  position: relative;
+  left: 12%;
+  color: dimgray;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.popo{
+  position: absolute;
+  left: 80%;
+  top: 4.5%;
+}
+
+.oke{
+  position: relative;
+  left: 37%;
+  color: dimgray;
+  font-size: 15px;
+}
+
+/* Structure */
+table {
+width: 100%;
+}
+
+.mat-mdc-form-field {
+font-size: 14px;
+width: 100%;
+}
+
+
+.apa{
+float:right;
+margin: bottom 17px;
+}
+
+.serc{
+border: 1px solid #ccc;
+border-radius: 4px;
+padding: 10px;
+font-size: 14px;
+}
+
+.suka{
+position:absolute;
+top: 23%;
+width: 100%;
+
+
+}
